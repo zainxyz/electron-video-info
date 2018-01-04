@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Electron Video App</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Electron</h2>
+    <form class="my-4">
+      <div class="custom-file my-2">
+        <input id="selectFileInput" class="custom-file-input" type="file" accept="video/*" />
+        <label for="selectFileInput" class="custom-file-label">Select a Video</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Get Info</button>
+    </form>
+    <h4 id="result"></h4>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
